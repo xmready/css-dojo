@@ -5,7 +5,6 @@
   background: center / cover no-repeat url(../images/bike.png);
   background-size: cover;
   height: 95vh;
-  width: 100vw;
   padding-top: 10%;
   position: relative;
 }

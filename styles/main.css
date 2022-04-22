@@ -32,3 +32,9 @@ p {
   letter-spacing: 1.3px;
   margin-inline: 5%;
 }
+
+input,
+label,
+button {
+  font-size: calc(1rem + 1vw);
+}

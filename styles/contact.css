@@ -1,0 +1,53 @@
+.contact {
+  color: white;
+}
+
+.contact h1 {
+  font-style: normal;
+}
+
+.contact input:not([type=checkbox]),
+.contact button {
+  display: block;
+  width: calc(1rem + 50vw);
+  margin-block: 0 4.5%;
+  margin-inline: auto;
+  border-radius: 20px;
+  line-height: 2;
+  color: white;
+  text-indent: 1.5em;
+  background: rgb(170, 193, 221);
+  border: 1px solid white;
+}
+
+.contact .checkbox-container {
+  display: flex;
+  justify-content: center;
+  width: calc(1rem + 50vw);
+  margin-block: 0 4.5%;
+  margin-inline: auto;
+}
+
+.contact .checkbox-container * {
+  margin-inline: 1%;
+}
+
+.contact button {
+  width: calc(1rem + 30vw);
+  text-indent: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .contact h1 {
+    margin-block: 3%;
+  }
+
+  .contact input:not([type=checkbox]),
+  .contact button {
+    margin-block: 0 2%;
+  }
+  
+  .contact .checkbox-container {
+    margin-block: 0 2%;
+  }
+}
