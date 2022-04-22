@@ -11,21 +11,24 @@ body {
 }
 
 h1 {
-  font-size: calc(1rem + 7.5vw);
+  font-size: calc(1rem + 7vw);
   text-align: center;
   color: white;
   font-style: italic;
   text-transform: uppercase;
   text-shadow: 4px 4px 4px black;
   letter-spacing: 0.04em;
+  margin-inline: 5%;
 }
 
 h2 {
   font-size: calc(1rem + 1.8vw);
   letter-spacing: 0.12rem;
+  margin-inline: 5%;
 }
 
 p {
   font-size: calc(1rem + 1.5vw);
   letter-spacing: 1.3px;
+  margin-inline: 5%;
 }

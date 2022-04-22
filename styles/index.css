@@ -9,8 +9,7 @@
 }
 
 .landing h1 {
-  margin-block: 2%;
-  margin-inline: 5%;
+  margin-block: 3%;
 }
 
 .landing h2 {
@@ -35,6 +34,7 @@
 
 .landing a:hover {
   font-size: 1.2em;
+  text-shadow: 0.03em 0.03em 0.03em darkslategrey;
 }
 
 .landing a:active {

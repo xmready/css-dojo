@@ -6,15 +6,28 @@
   background-size: cover;
   height: 95vh;
   width: 100vw;
+  padding-top: 10%;
+  position: relative;
 }
 
 .images h1 {
   margin-block: 0;
-  padding-top: 10%;
 }
 
 .images .top p {
   position: absolute;
   bottom: 1em;
   left: 3em;
+}
+
+.images .bottom p {
+  position: relative;
+  top: 1em;
+  left: 3em;
+  margin-block-end: 3em;
+}
+
+.images img {
+  width: 15%;
+  margin: 3em 0 0 4em;
 }
