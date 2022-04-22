@@ -17,7 +17,7 @@ h1 {
   font-style: italic;
   text-transform: uppercase;
   text-shadow: 4px 4px 4px black;
-  letter-spacing: 3px;
+  letter-spacing: 0.04em;
 }
 
 h2 {
