@@ -10,6 +10,11 @@ body {
   font-size: 1.6rem;
 }
 
+header {
+  font-size: calc(1rem + 0.9vw);
+  padding-inline: 3%;
+}
+
 h1 {
   font-size: calc(1rem + 7vw);
   text-align: center;

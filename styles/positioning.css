@@ -6,27 +6,34 @@
 .positioning header {
   z-index: 1;
   position: fixed;
-  height: 3em;
+  min-height: 2em;
   width: 100vw;
   top: 0;
-  line-height: 3em;
+  line-height: 2em;
   text-align: center;
   font-weight: 500;
 }
 
 .positioning > .panel {
-  height: 80vh;
-  border-bottom: 3em solid rgb(222, 255, 44);
+  height: 85vh;
+  border-bottom: 2em solid rgb(222, 255, 44);
+  font-size: calc(1rem + 0.9vw);
 }
 
 .positioning h1 {
-  padding-block: 10% 3%;
+  padding-block: 18% 10%;
   margin-block: 0;
 }
 
 .box {
-  height: 10em;
-  width: 10em;
+  height: calc(12rem + 15vh);
+  width: calc(12rem + 8vw);
+  font-size: calc(1.3rem + 0.8vw);
+}
+
+.box ul {
+  padding-inline: 0;
+  list-style-position: inside;
 }
 
 .two .box {
@@ -60,4 +67,18 @@
 
 .positioning p {
   font-size: revert;
+}
+
+@media screen and (min-width: 768px) {
+  .positioning h1 {
+    padding-block: 10% 3%;
+    margin-block: 0;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .positioning h1 {
+    padding-block: 30% 15%;
+    margin-block: 0;
+  }
 }
