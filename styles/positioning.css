@@ -1,0 +1,63 @@
+.positioning header,
+.box {
+  background: rgb(222, 255, 44);
+}
+
+.positioning header {
+  z-index: 1;
+  position: fixed;
+  height: 3em;
+  width: 100vw;
+  top: 0;
+  line-height: 3em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.positioning > .panel {
+  height: 80vh;
+  border-bottom: 3em solid rgb(222, 255, 44);
+}
+
+.positioning h1 {
+  padding-block: 10% 3%;
+  margin-block: 0;
+}
+
+.box {
+  height: 10em;
+  width: 10em;
+}
+
+.two .box {
+  position: relative;
+  top: 5em;
+  left: 10em;
+}
+
+.three {
+  position: relative;
+}
+
+.three .box {
+  position: absolute;
+}
+
+.three .box:first-child {
+  top: 1em;
+  left: 1em;
+}
+
+.three .box:nth-child(2) {
+  bottom: 1em;
+  left: 1em;
+}
+
+.three .box:nth-child(3) {
+  right: 1em;
+  top: 1em;
+}
+
+.positioning p {
+  font-size: revert;
+}
