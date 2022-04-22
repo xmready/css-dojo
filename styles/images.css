@@ -1,0 +1,20 @@
+.images {
+}
+
+.images .top {
+  background: center / cover no-repeat url(../images/bike.png);
+  background-size: cover;
+  height: 95vh;
+  width: 100vw;
+}
+
+.images h1 {
+  margin-block: 0;
+  padding-top: 10%;
+}
+
+.images .top p {
+  position: absolute;
+  bottom: 1em;
+  left: 3em;
+}
