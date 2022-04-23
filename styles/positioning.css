@@ -6,22 +6,22 @@
 .positioning header {
   z-index: 1;
   position: fixed;
-  min-height: 2em;
+  min-height: 1.5em;
   width: 100vw;
   top: 0;
-  line-height: 2em;
+  line-height: 1.5em;
   text-align: center;
   font-weight: 500;
 }
 
 .positioning > .panel {
-  height: 85vh;
-  border-bottom: 2em solid rgb(222, 255, 44);
+  height: 80vh;
+  border-bottom: 1.5em solid rgb(222, 255, 44);
   font-size: calc(1rem + 0.9vw);
 }
 
 .positioning h1 {
-  padding-block: 18% 10%;
+  padding-block: 10% 10%;
   margin-block: 0;
 }
 
@@ -71,14 +71,14 @@
 
 @media screen and (min-width: 768px) {
   .positioning h1 {
-    padding-block: 10% 3%;
+    padding-block: 8% 3%;
     margin-block: 0;
   }
 }
 
 @media screen and (max-width: 378px) {
   .positioning h1 {
-    padding-block: 30% 15%;
+    padding-block: 18% 15%;
     margin-block: 0;
   }
 }
